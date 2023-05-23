@@ -1,0 +1,171 @@
+body{
+    background-color: rgb(149, 210, 138);
+}
+
+  header {
+    background-color:#f25b23;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+  }
+  .cima{
+    display: flex;
+  }
+  .cima img{
+    width: 100px;
+    height: 100px;
+    margin-left: 50px;
+}
+  .cima h1 {
+    font-family: Bookman;
+    color: white;
+    font-size: 24px;
+    flex: 1 1 auto;
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+  
+  .search-box {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .search-input {
+    border: none;
+    margin-left: 5px;
+    width: 150px;
+  }
+    button{
+    width: 50px;
+    height: 25px;
+    background: #e49373;;
+	  color: #fff;
+	  border: 1px solid #eee;
+	  border-radius: 8px;
+	  text-shadow: none;
+}
+    button:hover {
+	background: #ec6737;
+	color: #fff;
+	border: 1px solid #eee;
+	border-radius: 8px;
+	text-shadow: none;
+}
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    align-items: center;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  nav ul li a:hover {
+    background-color: #ccc;
+    color: rgb(0, 0, 0);
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .box {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+.image {
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+  }
+  
+  .title {
+    margin-top: 20px;
+    font-size: 10px;
+    font-weight: bold;
+  }
+
+.painel{
+    width: 870px;
+    height: 450px;
+    background-color: #fff;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.painel p{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 500;
+  color: #ec6737;
+}
+
+  .square {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-color: #f25b23;
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    align-items: center;
+  }
+
+  .square:hover {
+    background-color: #333; 
+  }
+
+  .square:hover .icon{
+    opacity: 0;
+  }
+
+  .title {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 25px;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    color: white;
+    margin-top: -1px;
+  }
+
+  .square:hover .title {
+    display: block;
+  }
+
+  .icon {
+    font-size: 60px;
+    margin-top: 45px;
+  }
